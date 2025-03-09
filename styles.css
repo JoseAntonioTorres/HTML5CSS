@@ -1,0 +1,126 @@
+/* Estilos generales */
+
+body {
+    font-family: "Gill Sans", Verdana, Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(270deg, #18529D, #28AD56);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+
+
+.logo {
+    margin-right: 10px; 
+    height: 100px; 
+}
+
+nav {
+    background-color: #18529D;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Secciones */
+.section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Tabla de Horario */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #18529D;
+    color: white;
+}
+
+.hora-col {
+    background: #28AD56;
+    color: white;
+    font-weight: bold;
+}
+
+.receso {
+    background: #ccc;
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    background-color: #18529D;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #28AD56;
+    text-decoration: none;
+    font-weight: bold;
+}
